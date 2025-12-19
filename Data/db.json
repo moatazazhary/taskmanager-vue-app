@@ -1,0 +1,239 @@
+{
+  "projects": [
+    {
+      "isUregen": false,
+      "isCompleted": false,
+      "mentorId": "",
+      "title": "Create a Task manager",
+      "description": "task manager for doing something in this live",
+      "startDate": "2025-12-17",
+      "endDate": "2025-12-24",
+      "categoryId": 2,
+      "category": "Web Developement",
+      "complexityId": 2,
+      "complexity": "Medium",
+      "id": 1
+    }
+  ],
+  "tasks": [
+    {
+      "isUregen": false,
+      "isCompleted": true,
+      "isStarted": true,
+      "date": "2025-12-17",
+      "title": "Create a UI design",
+      "complexityId": 2,
+      "complexity": "Medium",
+      "assignedId": [
+        2
+      ],
+      "projectId": 1,
+      "id": 1,
+      "isStared": true
+    },
+    {
+      "isUregen": true,
+      "isCompleted": false,
+      "isStarted": false,
+      "date": "2025-12-17",
+      "title": "Create a database",
+      "complexityId": 3,
+      "complexity": "Hard",
+      "assignedId": [
+        2
+      ],
+      "projectId": 1,
+      "id": 2
+    },
+    {
+      "isUregen": true,
+      "isCompleted": false,
+      "isStarted": false,
+      "date": "2025-12-17",
+      "title": "Create a design components",
+      "complexityId": 5,
+      "complexity": "Critical",
+      "assignedId": [
+        1
+      ],
+      "projectId": 1,
+      "id": 3
+    }
+  ],
+  "employees": [
+    {
+      "firstName": "Mohamed",
+      "lastName": "Ahmed",
+      "email": "mohamedahmed@gmail.com",
+      "password": "Mohammed12@",
+      "about": "Moehamed is a frontend developer with +3 years in this role",
+      "roleId": 2,
+      "role": "Employee",
+      "jobTitleId": 1,
+      "jobTitle": "Frontend Developer",
+      "gender": "Male",
+      "isAdmin": false,
+      "id": 1
+    },
+    {
+      "firstName": "Moataz",
+      "lastName": "Azhary",
+      "email": "moatazazhary@outlook.sa",
+      "password": "Moataz12@",
+      "about": "a fullstack developer with some of data analysts & business analysts.",
+      "roleId": 1,
+      "role": "Mentor",
+      "jobTitleId": 2,
+      "jobTitle": "Backend Developer",
+      "gender": "Male",
+      "isAdmin": false,
+      "id": 2
+    },
+    {
+      "firstName": "Mohaned",
+      "lastName": "Azhary",
+      "email": "mohanedazhary@gmail.com",
+      "password": "Mohaned12@",
+      "gender": "Male",
+      "roleId": 2,
+      "role": "Employee",
+      "isAdmin": false,
+      "id": 3,
+      "jobTitleId": 6,
+      "jobTitle": "Graphic Designer",
+      "about": "A graphic designer with a +1 years in work."
+    },
+    {
+      "firstName": "Mohammed",
+      "lastName": "Najm",
+      "email": "mohamednajm@gmail.com",
+      "password": "MohammedNjm12@",
+      "gender": "Male",
+      "roleId": 2,
+      "role": "Employee",
+      "isAdmin": false,
+      "id": 4
+    },
+    {
+      "firstName": "Sara",
+      "lastName": "Hassan",
+      "email": "sara@gmail.com",
+      "password": "Sarra12@",
+      "gender": "Female",
+      "roleId": 2,
+      "role": "Employee",
+      "isAdmin": false,
+      "id": 5,
+      "jobTitleId": 5,
+      "jobTitle": "UI UX Designer",
+      "about": "Sara with +2 years in this job , and looking for more."
+    },
+    {
+      "firstName": "Hassan",
+      "lastName": "Osman",
+      "email": "hassan12@gmail.com",
+      "password": "Hassan12@",
+      "gender": "Male",
+      "roleId": 2,
+      "role": "Employee",
+      "isAdmin": false,
+      "id": 6
+    }
+  ],
+  "Complexities": [
+    {
+      "id": 1,
+      "title": "Easy"
+    },
+    {
+      "id": 2,
+      "title": "Medium"
+    },
+    {
+      "id": 3,
+      "title": "Hard"
+    },
+    {
+      "id": 5,
+      "title": "Critical"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "UI UX Design"
+    },
+    {
+      "id": 2,
+      "title": "Web Developement"
+    },
+    {
+      "id": 3,
+      "title": "Mobile Developement"
+    },
+    {
+      "id": 4,
+      "title": "Design & Creative"
+    },
+    {
+      "id": 5,
+      "title": "Buseness & Marketing"
+    },
+    {
+      "id": 6,
+      "title": "Management"
+    }
+  ],
+  "jobTitlea": [
+    {
+      "id": 1,
+      "title": "Frontend Developer"
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer"
+    },
+    {
+      "id": 3,
+      "title": "Mpbile Developer"
+    },
+    {
+      "id": 4,
+      "title": "Data Analyst"
+    },
+    {
+      "id": 5,
+      "title": "UI UX Designer"
+    },
+    {
+      "id": 6,
+      "title": "Graphic Designer"
+    },
+    {
+      "id": 7,
+      "title": "Sales Executive"
+    },
+    {
+      "id": 8,
+      "title": "SEO Specialist"
+    },
+    {
+      "id": 9,
+      "title": "Project Manager"
+    },
+    {
+      "id": 10,
+      "title": "Product Manager"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "title": "Mentor"
+    },
+    {
+      "id": 2,
+      "title": "Employee"
+    }
+  ]
+}
