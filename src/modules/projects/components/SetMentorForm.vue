@@ -25,7 +25,7 @@ import { useProjectStore } from '../store/ProjectsStore';
                 <i class="fa-solid fa-angle-down text-text absolute top-1/2 right-2 -translate-y-1/2"></i>
                 <div v-if="dropdownControl.active === dropDowns.SET_MENTOR_LIST" class="overflow-y-scroll h-20 absolute top-10 left-0 w-full bg-back rounded-lg shadow-xl shadow-gray-200 p-3">
                     <div v-for="employee in props.employees" @click="fillSelectList.SelectEmployee(employee)" class="flex items-center gap-3 p-2 rounded-lg hover:bg-hover transition-colors cursor-pointer">
-                        <img class="rounded-full w-8" src="../../../assets/images/indian-male-man-svgrepo-com.svg" alt="">
+                        <img class="rounded-full w-8" src="/images/indian-male-man-svgrepo-com.svg" alt="">
                         <div class="pointer-events-none">
                             <h3 class="text-title text-[12px] font-medium">{{employee.firstName +" "+ employee.lastName}}</h3>
                             <p class="text-text text-[10px] font-medium">{{employee.jobTitle}}</p>
