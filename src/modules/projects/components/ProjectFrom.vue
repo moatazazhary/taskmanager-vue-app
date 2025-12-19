@@ -172,7 +172,7 @@
                                             <span class="text-sm text-title font-medium">{{ task.title }}</span>
                                             <div class="flex items-center gap-2">
                                                 <div class="flex flex-row -space-x-3">
-                                                    <img v-for="(value, index) in task.assignedId" class="rounded-full border-2 border-back w-7 h-7" :style="`z-index:${task.assignedId.length - index }`" src="../../../assets/images/indian-male-man-svgrepo-com.svg" alt="">
+                                                    <img v-for="(value, index) in task.assignedId" class="rounded-full border-2 border-back w-7 h-7" :style="`z-index:${task.assignedId.length - index }`" src="/images/indian-male-man-svgrepo-com.svg" alt="">
                                                 </div>
                                                 <button class="outline-none cursor-pointer border-none bg-none flex items-center gap-3 text-sm text-text font-medium hover:text-main transition-colors">
                                                     <i class="fa-solid fa-xmark"></i>

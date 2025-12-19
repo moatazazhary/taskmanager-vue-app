@@ -13,7 +13,7 @@
             <div class="w-fit pb-4 flex items-center gap-3">
                 <p v-for="value in 3" class="bg-[#cbcbcb] text-back text-[12px] px-3 py-1 font-medium rounded-lg text-center" >Not started</p>
             </div>
-            <img class="w-full h-40 rounded-2xl object-cover" src="../../../assets/images/original-5d23f3052261513e43c0745b5a7cb870.png" alt="">
+            <img class="w-full h-40 rounded-2xl object-cover" src="/images/original-5d23f3052261513e43c0745b5a7cb870.png" alt="">
             <div class="my-5">
                 <h2 class="text-title text-xl font-medium">Creating Awesome Mobile Apps</h2>
                 <p class="text-text text-sm font-normal mt-3">Follow the video tutorial above. Understand how to use each tool in the Figma application. Also learn how to make a good and correct design. Starting from spacing, typography, content, and many other design hierarchies. Then try to make it yourself with your imagination and inspiration.</p>
@@ -39,7 +39,7 @@
                 <div v-if="true" class="flex flex-col mt-5 gap-3">
                     <div class="flex items-center justify-between gap-3 p-2 rounded-lg cursor-default hover:bg-hover transition-colors" v-for="value in 3">
                         <div class="flex items-center gap-5">
-                            <img class="w-8" src="../../../assets/icons/Excel.svg" alt="">
+                            <img class="w-8" src="/icons/Excel.svg" alt="">
                             <h4 class="text-sm font-medium text-title">task-one-details.xlsx</h4>
                             <span class="text-[12px] text-title font-medium">12MB</span>
                         </div>

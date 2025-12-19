@@ -36,7 +36,7 @@
                 <div class="overflow-y-scroll h-20 mt-3">
                     <label v-for="value in 4" class="flex items-center justify-between p-2 rounded-lg hover:bg-hover transition-colors cursor-pointer" :for="`check-${value}`">
                         <div class="flex items-center gap-3">
-                            <img class="rounded-full w-8" src="../../../assets/images/indian-male-man-svgrepo-com.svg" alt="">
+                            <img class="rounded-full w-8" src="/images/indian-male-man-svgrepo-com.svg" alt="">
                             <div>
                                 <h3 class="text-title text-[12px] font-medium">Curios George</h3>
                                 <p class="text-text text-[10px] font-medium">UI UX  design</p>
