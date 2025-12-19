@@ -1,6 +1,6 @@
 <script setup>
-import sidebar from './core/components/sidebar.vue'
-import navbar from './core/components/navbar.vue'
+import sidebar from './core/components/Sidebar.vue'
+import navbar from './core/components/Navbar.vue'
 import { RouterView } from 'vue-router'
 
 import { useAlertStore } from './core/stores/AlertStore';
