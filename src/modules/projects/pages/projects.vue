@@ -1,5 +1,5 @@
 <script setup>
-    import project from '../components/project.vue';
+    import Project from '../components/Project.vue';
     import Modal from '../../../core/components/ModalComponent/Modal.vue'
     import ProjectForm from '../components/ProjectFrom.vue'
     import Alert from '../../../core/components/Alerts/alert.vue';
@@ -100,7 +100,7 @@ import { useAuthStore } from '../../../core/stores/AuthStore.js';
         <p v-if="!filtredList.length" class="mt-10 text-center w-full text-[16px] text-text font-medium">No projects ...</p>
         <div v-else class="mt-10 grid grid-cols-1 md:grid-cols-2  xl:grid-cols-3  gap-6">
             
-            <project v-for="project in filtredList" :data="project"></project>
+            <Project v-for="project in filtredList" :data="project"></Project>
         </div>
     </div>
 </template>

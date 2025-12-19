@@ -67,7 +67,7 @@ import { useFillList } from '../../../core/stores/FillSelectListStore';
 
                 <div class="mt-4">
                     <label for="" class="text-lg text-[16px] font-medium">Password</label>
-                    <input v-model="newEmployee.password" :class="{'border-red-500 hover:border-red-500 outline-red-500' : employeeControl.validate.password ? true : false}" class="mt-2 outline-main bg-[#fefefe] text-sm font-medium p-2 rounded-lg border-[1px] border-gray-200 w-full hover:border-main transition-colors " type="password">
+                    <input v-model="user.password" :class="{'border-red-500 hover:border-red-500 outline-red-500' : employeeControl.validate.password ? true : false}" class="mt-2 outline-main bg-[#fefefe] text-sm font-medium p-2 rounded-lg border-[1px] border-gray-200 w-full hover:border-main transition-colors " type="password">
                         <!-- <ErrorSpan class="flex flex-col gap-1" v-if="employeeControl.validate.password ? true : false" v-for="error in employeeControl.validate.password">
                             <span> {{ error }}</span>
                         </ErrorSpan> -->
